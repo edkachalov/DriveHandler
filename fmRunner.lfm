@@ -1,0 +1,57 @@
+object Form1: TForm1
+  Left = 416
+  Height = 335
+  Top = 226
+  Width = 447
+  Caption = 'Form1'
+  ClientHeight = 335
+  ClientWidth = 447
+  DesignTimePPI = 134
+  LCLVersion = '2.0.10.0'
+  object sgAction: TStringGrid
+    Left = 14
+    Height = 140
+    Top = 14
+    Width = 418
+    ColCount = 3
+    Columns = <    
+      item
+        Title.Caption = 'N'
+        Width = 32
+      end    
+      item
+        Title.Caption = 'Group'
+        Width = 89
+      end    
+      item
+        Title.Caption = 'Title'
+        Width = 89
+        ValueChecked = '1'
+      end>
+    FixedCols = 0
+    Flat = True
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -17
+    Font.Name = 'Courier'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+    RowHeights = (
+      30
+      30
+      30
+      30
+      30
+    )
+    Cells = (
+      2
+      0
+      1
+      '1'
+      0
+      2
+      '2'
+    )
+  end
+end

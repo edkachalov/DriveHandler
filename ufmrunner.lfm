@@ -1,0 +1,64 @@
+object fmRunner: TfmRunner
+  Left = 435
+  Height = 470
+  Top = 186
+  Width = 300
+  BorderStyle = bsNone
+  Caption = 'Runner'
+  ClientHeight = 470
+  ClientWidth = 300
+  DesignTimePPI = 134
+  FormStyle = fsStayOnTop
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poScreenCenter
+  LCLVersion = '2.0.10.0'
+  Visible = True
+  object sgRun: TStringGrid
+    Left = 0
+    Height = 467
+    Top = 0
+    Width = 300
+    Align = alTop
+    ColCount = 3
+    Columns = <    
+      item
+        Title.Caption = '# Key'
+        Width = 89
+      end    
+      item
+        Title.Caption = 'Name'
+        Width = 89
+      end    
+      item
+        Title.Caption = '>Set<'
+        Width = 89
+      end>
+    FixedCols = 0
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clLime
+    Font.Height = -20
+    Font.Name = 'Courier'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goRangeSelect, goSmoothScroll]
+    ParentFont = False
+    TabOrder = 0
+    OnKeyPress = sgRunKeyPress
+    Cells = (
+      4
+      0
+      0
+      'Key'
+      0
+      1
+      '12'
+      1
+      0
+      'Lol'
+      2
+      0
+      'Zaz'
+    )
+  end
+end
